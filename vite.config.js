@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: './', // This makes the app work correctly on GitHub Pages
+  base: '/side-hustle-finder/', // GitHub Pages repository name
 })
