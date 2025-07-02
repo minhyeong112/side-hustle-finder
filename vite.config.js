@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/side-hustle-finder/', // GitHub Pages repository name
+  base: '/', // Custom domain
 })

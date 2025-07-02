@@ -85,7 +85,7 @@ This project includes automatic deployment to GitHub Pages using GitHub Actions.
 3. **Wait for deployment:**
    - The GitHub Action will automatically build and deploy your site
    - Check the Actions tab in your repository to monitor progress
-   - Your site will be available at: `https://YOUR_USERNAME.github.io/side-hustle-finder/`
+   - Your site will be available at: `https://sidehustle.whitefeatherinvestments.com`
 
 ### Manual Deployment
 
@@ -109,15 +109,15 @@ npm run deploy
 
 ### Vite Configuration
 
-The project is configured to work with GitHub Pages. The `vite.config.js` includes:
+The project is configured to work with a custom domain on GitHub Pages. The `vite.config.js` includes:
 
 ```javascript
-base: '/side-hustle-finder/'
+base: '/' // Custom domain
 ```
 
-**IMPORTANT**: Update this to match your repository name. For example:
-- If your repo is `https://github.com/minhyeong112/side-hustle-finder`, use `base: '/side-hustle-finder/'`
-- If your repo is `https://github.com/minhyeong112/my-app`, use `base: '/my-app/'`
+**Note**: If you're NOT using a custom domain and want to use GitHub's default URL:
+- Change `base: '/'` to `base: '/side-hustle-finder/'` (or your repository name)
+- Remove the CNAME file
 
 ### Environment Variables
 
