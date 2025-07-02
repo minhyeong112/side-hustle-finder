@@ -10,7 +10,7 @@ An interactive web application that helps you discover the perfect side hustle b
 - **Beautiful UI**: Modern, responsive design with smooth animations and intuitive interface
 - **Share Results**: Easily share your recommendations with friends or save for later
 
-## 🛠️ Built With
+## 🛠️ Built  With
 
 - [React](https://reactjs.org/) - UI framework
 - [Vite](https://vitejs.dev/) - Build tool and development server
